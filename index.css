@@ -16,10 +16,11 @@ table {
     max-width: 75%;
 }
 
-table, th, td {
-    border: 1px solid blue;
+table {
+    border: 2px solid blue;
 } 
 th, td {
+    border: 1px solid rgb(81, 81, 204);
     padding: 10px;
 }
 
