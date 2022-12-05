@@ -6,7 +6,6 @@ body {
 h1 {
     text-align: center;
     font-size: 26px;
-
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -19,8 +18,10 @@ table {
 
 table, th, td {
     border: 1px solid blue;
-    padding: 5px;
 } 
+th, td {
+    padding: 10px;
+}
 
 .cover {
     width: 75px;
@@ -50,7 +51,10 @@ footer {
     justify-content: space-evenly;
 }
 
-footer div {
-
+#message_board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
 }
 
