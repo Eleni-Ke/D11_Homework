@@ -51,7 +51,7 @@ function changePriceColor() {
     let randomRed = Math.floor(Math.random()*(255 + 1));
     let randomColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
 
-    //if I put all the random var in the loop, I get different colors for each price.
+    //if I put all the random var in the loop, I get different colors for each price. Because Red, Green and Blue are being represented by a number between 1 and 255.
     
     for (let i = 0; i < pricesNode.length; i++) {
         let priceNode = pricesNode[i];
